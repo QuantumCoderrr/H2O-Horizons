@@ -1,7 +1,3 @@
-Here's your README file with appropriate formatting using `<br>` tags, headings, and space for contact details:
-
----
-
 # H2O Horizons ~ AI-Driven Predictive Water Resource Management System
 
 ## Overview  
