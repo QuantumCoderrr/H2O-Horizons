@@ -280,3 +280,90 @@ body, html {
   footer p {
     color: #ffffff;
   }
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+  .banner img {
+    width: 50%; /* Make banner images smaller on medium screens */
+  }
+
+  .info-box {
+    width: 45%; /* Adjust info box width for medium screens */
+  }
+
+  .team-member {
+    width: 48%; /* Adjust team member box width */
+  }
+
+  h2 {
+    font-size: 36px; /* Reduce heading size */
+  }
+
+  .text-overlay {
+    font-size: 50px; /* Reduce text size in banner */
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul li {
+    margin-right: 10px; /* Reduce margin for nav items */
+  }
+
+  .banner {
+    height: 500px; /* Adjust banner height */
+  }
+
+  .banner img {
+    height: auto; /* Allow height to adjust */
+    width: 100%; /* Full width for mobile */
+  }
+
+  .info-box {
+    width: 90%; /* Full width for info boxes */
+    margin: 10px auto; /* Center the boxes */
+  }
+
+  .get-started-btn {
+    padding: 8px 16px; /* Adjust button padding */
+  }
+
+  h2 {
+    font-size: 28px; /* Further reduce heading size */
+  }
+
+  .text-overlay {
+    font-size: 40px; /* Adjust text size in banner */
+  }
+
+  .team-member {
+    width: 90%; /* Full width for team members */
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul li {
+    display: block; /* Stack nav items */
+    margin: 5px 0; /* Reduce margin */
+  }
+
+  h2 {
+    font-size: 24px; /* Smaller heading for small screens */
+  }
+
+  .text-overlay {
+    font-size: 30px; /* Smaller text in banner */
+  }
+
+  .team-member img {
+    height: 200px; /* Adjust team member image height */
+  }
+
+  .info-box {
+    width: 100%; /* Full width for small devices */
+  }
+
+  .contact-button {
+    padding: 8px 15px; /* Adjust button padding for mobile */
+  }
+}
